@@ -6,13 +6,17 @@
 
 It currently supports the following APIs:
  - cognitoIdentity
+ - connect
  - dynamodb
+ - ec2
+ - ec2 auto-scaling groups
  - elasticsearch
  - elastictranscoder
  - polly
  - rekognition
  - s3
  - secretsmanager
+ - ses
  - sns
  - ssm
  - sqs
@@ -54,7 +58,7 @@ moduleSettings = {
     awscfml: {
         awsKey: '',
         awsSecretKey: '',
-        defaultRegion: '',
+        defaultRegion: ''
     }
 }
 ```
